@@ -1,14 +1,16 @@
-# deanius:promise
-[![Build Status](https://img.shields.io/travis/deanius/meteor-promise.svg)](https://travis-ci.org/deanius/meteor-promise) ![ES 2015](https://img.shields.io/badge/ES-2015-brightgreen.svg) [![Version Info](https://img.shields.io/badge/meteor-v3.1.2-green.svg)](https://atmospherejs.com/deanius/promise) [![Codacy Badge](https://api.codacy.com/project/badge/d432270b7b0b4be5b818aae1be5101d7)](https://www.codacy.com/app/deanmisc/meteor-promise) [![twitter link](https://img.shields.io/badge/twitter-@deaniusdev-55acee.svg)](https://twitter.com/@deaniusdev)
+# A fork of the original deanius:promise package. This was created to allow this package to work in Meteor 2.3
+
+# industrialwebapps:promise
+[![Build Status](https://img.shields.io/travis/deanius/meteor-promise.svg)](https://travis-ci.org/deanius/meteor-promise) ![ES 2015](https://img.shields.io/badge/ES-2015-brightgreen.svg) [![Version Info](https://img.shields.io/badge/meteor-v3.1.2-green.svg)](https://atmospherejs.com/industrialwebapps/promise) [![Codacy Badge](https://api.codacy.com/project/badge/d432270b7b0b4be5b818aae1be5101d7)](https://www.codacy.com/app/deanmisc/meteor-promise) [![twitter link](https://img.shields.io/badge/twitter-@deaniusdev-55acee.svg)](https://twitter.com/@deaniusdev)
 
 # Install
 ```
-meteor add deanius:promise
+meteor add industrialwebapps:promise
 ```
 
 # API
 
-The *deanius:promise* package gives you the following functionality:
+The *industrialwebapps:promise* package gives you the following functionality:
 
   - [`Meteor.callPromise`](#call-promise) - The same as Meteor.call, but you omit the callback parameter, and it returns a `Promise` for the result
   - [`Meteor.runAsync`](#run-async) - Uses the [co NPM Library](https://www.npmjs.com/package/co) to run a JavaScript generator function yielding promises, as though it were synchronous
@@ -18,4 +20,4 @@ The *deanius:promise* package gives you the following functionality:
   - `ReactivePromise` - A function to wrap Promise-returning functions with, to create reactive functions - such as helpers - which update when their promised value becomes available.
 
 
-Thoughts? Questions? Open an issue in [`deanius:promise`](https://github.com/deanius/meteor-promise), and let's discuss. Or find me on social media. Thanks for your interest!
+Thoughts? Questions? Open an issue in [`industrialwebapps:promise`](https://github.com/industrial-web-apps/meteor-promise), and let's discuss. Or find me on social media. Thanks for your interest!

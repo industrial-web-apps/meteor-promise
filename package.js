@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'deanius:promise',
+  name: 'industrialwebapps:promise',
   version: '3.1.5',
   summary: 'Utilities for Promise-based wrappers, method calls, helpers and HTTP in Meteor',
-  git: 'https://github.com/deanius/meteor-promise',
+  git: 'https://github.com/industrial-web-apps/meteor-promise',
   documentation: 'README.md'
 });
 
